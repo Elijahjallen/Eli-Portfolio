@@ -7,10 +7,25 @@ function Navbar() {
         </a>
 
         <div className="hidden items-center gap-8 text-sm text-slate-300 md:flex">
-          <a href="#about" className="hover:text-cyan-400">About</a>
-          <a href="#projects" className="hover:text-cyan-400">Projects</a>
-          <a href="#skills" className="hover:text-cyan-400">Skills</a>
-          <a href="#contact" className="hover:text-cyan-400">Contact</a>
+          <a href="#about" className="hover:text-cyan-400 transition">
+            About
+          </a>
+
+          <a href="#experience" className="hover:text-cyan-400 transition">
+            Experience
+          </a>
+
+          <a href="#projects" className="hover:text-cyan-400 transition">
+            Projects
+          </a>
+
+          <a href="#education" className="hover:text-cyan-400 transition">
+            Education
+          </a>
+
+          <a href="#contact" className="hover:text-cyan-400 transition">
+            Contact
+          </a>
         </div>
       </nav>
     </header>

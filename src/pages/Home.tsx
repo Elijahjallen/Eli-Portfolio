@@ -8,6 +8,9 @@ import Skills from "../components/Skills";
 import CareerTimeline from "../components/CareerTimeline";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Education from "../components/Education";
+import Experience from "../components/Experience";
+import CareerHighlights from "../components/CareerHighlights";
 
 function Home() {
   return (
@@ -19,6 +22,9 @@ function Home() {
       <About />
       <Projects />
       <Skills />
+      <Education />
+      <Experience />
+      <CareerHighlights />
       <CareerTimeline />
       <Contact />
       <Footer />
