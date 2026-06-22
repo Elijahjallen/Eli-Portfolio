@@ -24,7 +24,7 @@ function GuardianOps() {
         <p className="mb-10 max-w-3xl leading-8 text-slate-300">
           GuardianOps is a case management and workflow platform built to
           streamline intake, scheduling, staff assignment, quote tracking,
-          reporting, and automation for youth transportation operations.
+          reporting, and automation for transport operations.
         </p>
 
         <div className="mb-10 flex flex-wrap gap-3">

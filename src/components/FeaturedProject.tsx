@@ -12,8 +12,8 @@ function FeaturedProject() {
             <h2 className="mb-4 text-4xl font-bold">GuardianOps</h2>
 
             <p className="mb-6 leading-8 text-slate-300">
-              A full-stack operational workflow platform designed for youth
-              transportation services. GuardianOps demonstrates case management,
+              A full-stack operational workflow platform designed for
+              transportation operations and logistics services. GuardianOps demonstrates case management,
               intake workflows, staff assignment, quote tracking, scheduling,
               reporting, and automation-focused design.
             </p>
