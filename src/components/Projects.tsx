@@ -7,21 +7,15 @@ const projects = [
   {
     number: "01",
     title: "GuardianOps Dashboard",
-    description:
-      "A case management and operational workflow platform built for youth transportation services including intake, scheduling, staff assignment, reporting, and workflow automation.",
-    image: guardianOpsDashboard,
-    tech: ["React", "TypeScript", "PostgreSQL", "REST APIs"],
-    live: "/guardianops",
+    ...
+    live: "https://guardianops-platform.vercel.app/",
     github: "#",
   },
   {
     number: "02",
     title: "GuardianOps Case Management",
-    description:
-      "Case tracking, workflow management, assignment tracking, notifications, and operational visibility for transportation teams.",
-    image: guardianOpsCases,
-    tech: ["React", "Case Management", "Workflow Design"],
-    live: "/guardianops",
+    ...
+    live: "https://guardianops-platform.vercel.app/",
     github: "#",
   },
   {
