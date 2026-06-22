@@ -31,7 +31,7 @@ const projects = [
       "Business website focused on responsive design, service presentation, user experience, and professional branding.",
     image: rdasHome,
     tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    live: "/rdas",
+    live: "https://rdas.net",
     github: "#",
   },
   {
@@ -41,7 +41,7 @@ const projects = [
       "Web design and branding project focused on creating a professional online presence and customer engagement experience.",
     image: allenInkHome,
     tech: ["HTML", "CSS", "Branding", "UX/UI"],
-    live: "/allen-ink",
+    live: "https://allen-ink.com",
     github: "#",
   },
 ];
