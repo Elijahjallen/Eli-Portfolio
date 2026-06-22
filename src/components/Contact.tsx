@@ -26,15 +26,19 @@ function Contact() {
         </a>
 
           <a 
-          "https://www.linkedin.com/in/eli-allen--"
-          classname="text-cyan-400 hover:text-cyan-300"
+            href="https://www.linkedin.com/in/eli-allen--"
+            className="text-cyan-400 hover:text-cyan-300" 
           >
             💼 LinkedIn: Linkedin.com/in/eli-allen--/
           </a>
 
-          <p>
+          <a 
+            href="https://www.github.com/Elijahjallen"
+            className="text-cyan-400 hover:text-cyan-300" 
+          >
             💻 GitHub: Github.com/Elijahjallen
-          </p>
+          </a>
+          
         </div>
 
         <div className="mt-8">
