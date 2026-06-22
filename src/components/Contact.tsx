@@ -17,28 +17,31 @@ function Contact() {
           improve operational efficiency.
         </p>
 
-        <div className="space-y-4">
-          <a
+       <div className="space-y-4">
+        <a
             href="mailto:elijahjallen@gmail.com"
-            className="text-cyan-400 hover:text-cyan-300"
-          >
+            className="block text-cyan-400 hover:text-cyan-300"
+        >
             📧 elijahjallen@gmail.com
         </a>
 
-          <a 
+        <a
             href="https://www.linkedin.com/in/eli-allen--"
-            className="text-cyan-400 hover:text-cyan-300" 
-          >
-            💼 LinkedIn: Linkedin.com/in/eli-allen--/
-          </a>
+            target="_blank"
+            rel="noreferrer"
+            className="block text-cyan-400 hover:text-cyan-300"
+        >
+            💼 LinkedIn: linkedin.com/in/eli-allen--
+        </a>
 
-          <a 
-            href="https://www.github.com/Elijahjallen"
-            className="text-cyan-400 hover:text-cyan-300" 
-          >
-            💻 GitHub: Github.com/Elijahjallen
-          </a>
-          
+        <a
+            href="https://github.com/Elijahjallen"
+            target="_blank"
+            rel="noreferrer"
+            className="block text-cyan-400 hover:text-cyan-300"
+        >
+            💻 GitHub: github.com/Elijahjallen
+        </a>
         </div>
 
         <div className="mt-8">
