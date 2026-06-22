@@ -1,4 +1,5 @@
 import heroImage from "../assets/hero.jpg";
+import { FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
 
 function Hero() {
   return (
@@ -33,6 +34,35 @@ function Hero() {
           </a>
         </div>
       </div>
+
+      <div className="mt-8 flex items-center gap-5">
+  <a
+    href="https://www.linkedin.com/in/eli-allen--"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="https://github.com/Elijahjallen"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://x.com/Eli_Allen__"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaXTwitter />
+  </a>
+</div>
 
       <div className="mx-auto w-full max-w-md rounded-3xl border border-white/10 bg-slate-900 p-3 shadow-2xl">
         <img

@@ -1,3 +1,5 @@
+import { FaLinkedin, FaGithub, FaXTwitter } from "react-icons/fa6";
+
 function Contact() {
   return (
     <section
@@ -54,6 +56,36 @@ function Contact() {
           </a>
         </div>
       </div>
+
+<div className="mt-8 flex items-center gap-5">
+  <a
+    href="https://www.linkedin.com/in/eli-allen--"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaLinkedin />
+  </a>
+
+  <a
+    href="https://github.com/Elijahjallen"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaGithub />
+  </a>
+
+  <a
+    href="https://x.com/YOUR_X_HANDLE"
+    target="_blank"
+    rel="noreferrer"
+    className="text-3xl text-slate-400 transition hover:text-cyan-400"
+  >
+    <FaXTwitter />
+  </a>
+</div>
+
     </section>
   );
 }
