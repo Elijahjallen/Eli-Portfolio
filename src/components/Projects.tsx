@@ -7,14 +7,20 @@ const projects = [
   {
     number: "01",
     title: "GuardianOps Dashboard",
-    ...
+    description:
+      "A transport operations management platform designed for case management, intake workflows, staff assignment, scheduling, reporting, and workflow automation.",
+    image: guardianOpsDashboard,
+    tech: ["React", "TypeScript", "PostgreSQL", "REST APIs"],
     live: "https://guardianops-platform.vercel.app/",
     github: "#",
   },
   {
     number: "02",
     title: "GuardianOps Case Management",
-    ...
+    description:
+      "Case tracking, workflow management, assignment tracking, notifications, reporting, and operational visibility for transport teams.",
+    image: guardianOpsCases,
+    tech: ["React", "Case Management", "Workflow Design"],
     live: "https://guardianops-platform.vercel.app/",
     github: "#",
   },
@@ -25,7 +31,7 @@ const projects = [
       "Business website focused on responsive design, service presentation, user experience, and professional branding.",
     image: rdasHome,
     tech: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-    live: "rdas",
+    live: "/rdas",
     github: "#",
   },
   {
@@ -35,7 +41,7 @@ const projects = [
       "Web design and branding project focused on creating a professional online presence and customer engagement experience.",
     image: allenInkHome,
     tech: ["HTML", "CSS", "Branding", "UX/UI"],
-    live: "allen-ink",
+    live: "/allen-ink",
     github: "#",
   },
 ];
@@ -79,7 +85,8 @@ function Projects() {
               <div className="flex gap-4">
                 <a
                   href={project.live}
-                  target="_blank"
+                  target={project.live.startsWith("http") ? "_blank" : "_self"}
+                  rel="noreferrer"
                   className="rounded-full bg-cyan-400 px-5 py-2 font-semibold text-slate-950"
                 >
                   Live Site
@@ -88,6 +95,7 @@ function Projects() {
                 <a
                   href={project.github}
                   target="_blank"
+                  rel="noreferrer"
                   className="rounded-full border border-white/20 px-5 py-2 font-semibold text-white"
                 >
                   GitHub
