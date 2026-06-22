@@ -18,13 +18,19 @@ function Contact() {
         </p>
 
         <div className="space-y-4">
-          <p>
-            📧 Email: ElijahJAllen@gmail.com    
-          </p>
+          <a
+            href="mailto:elijahjallen@gmail.com"
+            className="text-cyan-400 hover:text-cyan-300"
+          >
+            📧 elijahjallen@gmail.com
+        </a>
 
-          <p>
+          <a 
+          "https://www.linkedin.com/in/eli-allen--"
+          classname="text-cyan-400 hover:text-cyan-300"
+          >
             💼 LinkedIn: Linkedin.com/in/eli-allen--/
-          </p>
+          </a>
 
           <p>
             💻 GitHub: Github.com/Elijahjallen
