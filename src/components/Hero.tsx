@@ -9,9 +9,9 @@ function Hero() {
           Software Engineer • AI Automation Builder • Operations Leader
         </p>
 
-<p className="mb-6 text-sm text-slate-400">
-  BS Accounting • MBA Project Management • BS Computer Science • MS Computer Science Candidate
-</p>
+        <p className="mb-6 text-sm text-slate-400">
+          BS Accounting • MBA Project Management • BS Computer Science • MS Computer Science Candidate
+        </p>
 
         <h1 className="max-w-3xl text-4xl font-bold leading-tight md:text-5xl xl:text-6xl">
           Software Engineer, AI Automation Builder, and Operations Leader
@@ -25,44 +25,53 @@ function Hero() {
         </p>
 
         <div className="mt-10 flex flex-wrap gap-4">
-          <a href="#projects" className="rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950">
+          <a
+            href="#projects"
+            className="rounded-full bg-cyan-400 px-6 py-3 font-semibold text-slate-950"
+          >
             View Projects
           </a>
 
-          <a href="#contact" className="rounded-full border border-slate-600 px-6 py-3 font-semibold text-white">
+          <a
+            href="#contact"
+            className="rounded-full border border-slate-600 px-6 py-3 font-semibold text-white"
+          >
             Contact Me
           </a>
         </div>
+
+        <div className="mt-8 flex items-center gap-5">
+          <a
+            href="https://www.linkedin.com/in/eli-allen--"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            className="text-3xl text-slate-400 transition hover:text-cyan-400"
+          >
+            <FaLinkedin />
+          </a>
+
+          <a
+            href="https://github.com/Elijahjallen"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            className="text-3xl text-slate-400 transition hover:text-cyan-400"
+          >
+            <FaGithub />
+          </a>
+
+          <a
+            href="https://x.com/Eli_Allen__"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="X"
+            className="text-3xl text-slate-400 transition hover:text-cyan-400"
+          >
+            <FaXTwitter />
+          </a>
+        </div>
       </div>
-
-      <div className="mt-8 flex items-center gap-5">
-  <a
-    href="https://www.linkedin.com/in/eli-allen--"
-    target="_blank"
-    rel="noreferrer"
-    className="text-3xl text-slate-400 transition hover:text-cyan-400"
-  >
-    <FaLinkedin />
-  </a>
-
-  <a
-    href="https://github.com/Elijahjallen"
-    target="_blank"
-    rel="noreferrer"
-    className="text-3xl text-slate-400 transition hover:text-cyan-400"
-  >
-    <FaGithub />
-  </a>
-
-  <a
-    href="https://x.com/Eli_Allen__"
-    target="_blank"
-    rel="noreferrer"
-    className="text-3xl text-slate-400 transition hover:text-cyan-400"
-  >
-    <FaXTwitter />
-  </a>
-</div>
 
       <div className="mx-auto w-full max-w-md rounded-3xl border border-white/10 bg-slate-900 p-3 shadow-2xl">
         <img
